@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @protocol ConfirmOrderServiceProtocol <NSObject>
+
 - (UIViewController *)confirmOrderViewControllerWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete;
 @end
